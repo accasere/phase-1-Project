@@ -1,0 +1,24 @@
+{
+    "articles": [
+        {
+            "name" : "Apple",
+            "price": 35,
+            "img" :"../img/apple.jpg"
+        },
+        {
+            "name" : "Apple 2",
+            "price": 35,
+            "img" :"../img/apple.jpg"
+        }, 
+        {
+            "name" : "Apple 3",
+            "price": 35,
+            "img" :"../img/apple.jpg"
+        },
+        {
+            "name" : "Apple 4",
+            "price": 35,
+            "img" :"../img/apple.jpg"
+        }
+    ]
+}

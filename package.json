@@ -1,0 +1,22 @@
+{
+  "name": "phase-1-project",
+  "version": "1.0.0",
+  "description": "API for Project Phase 1",
+  "main": "main.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accasere/phase-1-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/accasere/phase-1-Project/issues"
+  },
+  "homepage": "https://github.com/accasere/phase-1-Project#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

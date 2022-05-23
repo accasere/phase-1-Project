@@ -1,0 +1,92 @@
+:root {
+    background-color: hsl(215, 64%, 91%);
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(36, 35, 35);
+}
+
+.contGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contGrid >.producto{
+    width: 300px;
+    height: 400px;
+    border: solid 2px #000;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+
+.contGrid >.producto >.imgCont{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-bottom:solid 2px #000 ;
+}
+
+.contGrid >.producto >.imgCont >img{
+    object-fit: cover;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+}
+
+.contGrid >.producto >.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenido >p{
+    font-size: 18pt;
+}
+
+.btnAddCart{
+    margin-top: 5px;
+    border: solid 2px #cb5b5b;
+    background: none;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.comprarTodo{
+    margin-top: 5px;
+    border: solid 2px #cb5b5b;
+    background: none;
+    cursor: pointer;
+    padding: 3px;
+}
+
+
+.carrito {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+table{
+    border: solid 2px #000;
+}
+
+table tr td .tt {
+    width: 140px;
+    text-align: center;
+}
+
+
