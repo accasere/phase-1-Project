@@ -82,3 +82,31 @@ table{
     background-color: #5ba4a2;
     color: white;
 }
+
+
+.btn {
+    background-color: #7dc3c0;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: #4c8280;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.btn-vaciar {
+    background-color: #e25b60;
+    border: none;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-vaciar:hover {
+    background-color: rgb(229, 65, 65);
+}
