@@ -4,47 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart!</title>
-    <link rel="stylesheet" href="./style.css">
- 
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
+   <div class="container">
+       <h4>Shopping Cart</h4>
+       <hr>
+       <table>
+           <thead>
+               <tr>
+                   <th scope="'col" class="thQty">#</th>
+                   <th scope="'col" class="thQty">Item</th>
+                   <th scope="'col" class="thQty">Qty</th>
+                   <th scope="'col" class="thQty">Action</th>
+                   <th scope="'col" class="thQty">Total</th>
+               </tr>
+           </thead>
+           <tbody id="items"></tbody>
+           <tfoot>
+               <tr id="footer">
+                   <th scope="row" colspan="5">Cart Empty - Its time to buy!</th>
+               </tr>
+           </tfoot>
+       </table>
+       <div class="row" id="cards"></div>
+   </div>
 
-    <div class="carrito">
-        <table class="tablaContenido">
-            <tr>
-                <td><p class="tt" >Description: </p></td>
-                <td><p class="tt" >Price: </p></td>
-            </tr>
-            
-        
-        </table>
-        <button class="comprarTodo">Checkout</button>
-    </div>
-    <div class="contGen">
-        <div class="contGrid">
-                      
-           <!-- Articles add from Json file
-               
-            <div class="producto">
-                <div class="imgCont">
-                    <img src="./img/apple.jpg" alt="Imagen of item" class="picture">
-                </div>
-                <div class="contenido">
-                    <h2 class="titulo">Apple Tropical</h2>
-                    <p class="precio">35$</p>
-                    <button type="button" class="btnAddCart">Add to Cart</button>
-                </div>
-            </div>-->
-        </div> 
+   <template id="template-footer">
+       <th scope="row" colspan="2">Total Products</th>
+       <td>10</td>
+       <td>
+           <button class="btn-vaciar" id="empty-cart">Clear Cart</button>
+       </td>
+       <td class="font-weight-bold">$ <span>5000</span></td>
+   </template>
 
-    </div>
-    
-    
-  
-   
-    <script src="./index.js"></script>
-    
-    
+   <template id="template-cart">
+       <tr>
+            <th scope="row">id</th>
+            <td class="nameTitle">Cafe</td>
+            <td class="qtyTd"></td>
+            <td>
+                <button class="btnAdd">+</button>
+                <button class="btnDel">-</button>
+            </td>
+            <td>$ <span>500</span></td>
+       </tr>
+   </template>
+
+   <template id="template-card">
+       <div class="col-12">
+           <div class="card">
+               <img src="" alt="" class="imgCard">
+               <div class="card-body">
+                   <h5 class="title">Title</h5>
+                   <p>Price</p>
+                   <button class="btn">+</button>
+               </div>
+           </div>
+       </div>
+   </template>
+
+
+    <script src="./app.js"></script>
 </body>
 </html>

@@ -1,23 +1,33 @@
 {
     "articles": [
         {
+            "id": 1,
             "name" : "Apple",
-            "price": 35,
+            "price": 3,
             "img" :"../img/apple.jpg"
         },
         {
+            "id": 2,
             "name" : "Apple 2",
-            "price": 35,
+            "price": 2,
             "img" :"../img/apple.jpg"
         }, 
         {
+            "id": 3,
             "name" : "Apple 3",
-            "price": 35,
+            "price": 5,
             "img" :"../img/apple.jpg"
         },
         {
+            "id": 4,
             "name" : "Apple 4",
-            "price": 35,
+            "price": 1,
+            "img" :"../img/apple.jpg"
+        },
+        {
+            "id": 6,
+            "name" : "Apple 5",
+            "price": 3,
             "img" :"../img/apple.jpg"
         }
     ]
