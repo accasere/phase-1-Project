@@ -9,18 +9,26 @@
     margin: 0;
     padding: 0;
     color: rgb(36, 35, 35);
+    
 }
 .row{
-    display: flex;
+    display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
     padding: 3px;
+    
+    
+}
+
+.table {
+    width: 80%;
 }
 
 #items-box{
     padding: 10px;
     border: solid 1px #ddd;
+    
 }
 
 .imgCard{
@@ -29,16 +37,15 @@
     height: 65%;
     position: inherit;
     object-fit: cover;
-
 }
 
 .card {
-    width: 210px;
-    height: 210px;
+    width: 220px;
     border: solid 1px #ddd;
     overflow: hidden;
     border-radius: 20px;
     margin: 5px;
+    
 
 }
 
@@ -49,13 +56,18 @@
     text-align: left;
     background-color: #04AA6D;
     color: white;
+    
 }
 
 .container {
     font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
 }
+
+
+
 
 .container h4 {
     font-size: 35px;
@@ -72,7 +84,8 @@
 table{
     text-align: center;
     padding: 5px;
-    width: 100%;
+    width: 80%;
+    
 }
 
 .thQty {
@@ -90,6 +103,7 @@ table{
     padding: 10px;
     color: white;
     border-radius: 6px;
+    padding-bottom: 10px;
 }
 
 .btn:hover {
@@ -109,4 +123,8 @@ table{
 
 .btn-vaciar:hover {
     background-color: rgb(229, 65, 65);
+}
+
+.nameTitle {
+    text-align: left;
 }

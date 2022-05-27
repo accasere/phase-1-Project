@@ -22,6 +22,7 @@ items.addEventListener('click', e =>{
     bntAction(e)
 })
 
+//https://api.jsonbin.io/b/628e82cd402a5b38020d6bcb
 const fetchData = async() =>{
     try{
         const resp = await fetch('http://localhost:3000/articles')
@@ -122,7 +123,6 @@ const paintFooter = () => {
         carrito = {}
         paintCart()
     })
-    console.log(btnClear)
 }
 
 const bntAction = e =>{

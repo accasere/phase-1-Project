@@ -2,33 +2,45 @@
     "articles": [
         {
             "id": 1,
-            "name" : "Apple",
-            "price": 3,
-            "img" :"../img/apple.jpg"
+            "name" : "Gildan Men's Heavy Cotton T-Shirt, Style G5000",
+            "price": 13,
+            "img" :"../img/t1.png"
         },
         {
             "id": 2,
-            "name" : "Apple 2",
+            "name" : "Coleman Cotton Workwear Everyday Short Sleeve Tee Shirt",
             "price": 2,
-            "img" :"../img/apple.jpg"
+            "img" :"../img/t2.png"
         }, 
         {
             "id": 3,
-            "name" : "Apple 3",
+            "name" : "INTO THE AM Men's Crewneck T-Shirts - Soft Modern Fitted Basic Tees for Guys",
             "price": 5,
-            "img" :"../img/apple.jpg"
+            "img" :"../img/t3.png"
         },
         {
             "id": 4,
-            "name" : "Apple 4",
+            "name" : "PEGENO Men's Fashion Casual Workwear Pocket Short Sleeve T-Shirt",
             "price": 1,
-            "img" :"../img/apple.jpg"
+            "img" :"../img/t4.png"
         },
         {
             "id": 6,
-            "name" : "Apple 5",
+            "name" : "Kingsted Men’s T-Shirts Pack Royally Comfortable Soft Cotton Blend Classic Fit",
             "price": 3,
-            "img" :"../img/apple.jpg"
+            "img" :"../img/t5.png"
+        },
+        {
+            "id": 7,
+            "name" : "Kingsted Men’s T-Shirts Pack Royally Comfasortable Soft Cotton Blend Classic Fit",
+            "price": 3,
+            "img" :"../img/t5.png"
+        },
+        {
+            "id": 8,
+            "name" : "Kingsted Men’s T-Shirts Pack Royally Comfortable Soft Cottsdafon Blend Classic Fit",
+            "price": 32,
+            "img" :"../img/t1.png"
         }
     ]
 }
